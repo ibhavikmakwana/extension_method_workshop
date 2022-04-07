@@ -1,5 +1,9 @@
-name: Extension method workshop
+name: Extension Method
+
+# Accepts 'flutter' or 'dart'
 type: flutter
+
+# Configuration for each step
 steps:
   - name: Step 1
     directory: step_01
@@ -10,3 +14,8 @@ steps:
   - name: Step 3
     directory: step_03
     has_solution: false
+  - name: Step 4
+    directory: step_04
+    has_solution: true
+  - name: Step 5
+    directory: step_05

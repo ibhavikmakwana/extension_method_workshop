@@ -1,10 +1,8 @@
-import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
-class Test extends StatelessWidget {
-  const Test({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
+void main() {
+  final String localCurrency =
+      NumberFormat.simpleCurrency(locale: 'en_IN', decimalDigits: 0)
+          .format(1500);
+  print(localCurrency);
 }
