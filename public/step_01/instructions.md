@@ -9,7 +9,6 @@ Dart has added a feature called `Extension method` in Dart 2.7.  This allows us 
 1. Converting a number to local currency format
 2. Using Utility class to reduce repetitive code
 3. Replacing Utility class with Extension Methods
-4. How we can use it for **Flutter** widgets.
 
 ## 1. Converting a number to local currency format
 
