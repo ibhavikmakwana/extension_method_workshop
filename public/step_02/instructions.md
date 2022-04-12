@@ -18,7 +18,7 @@ class Util {
 
 This class contains a method that returns a formatted currency as `String` and it expects an `int` parameter called `decimalDigits`.
 
-You can use it in your dart/flutter code like this
+You can use it in your dart code like this
 
 ```dart
 final formattedCurrency =  Util.formatCurrency(1500);

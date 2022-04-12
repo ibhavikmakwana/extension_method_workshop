@@ -18,4 +18,3 @@ Here if you see We've created an extension called `XNum` on the `num` class and 
 
 Suppose you go for the extension on `int` but you later need an extension on `double` as well, currency can be in decimal points as well, right? So there'll be Two extensions doing almost similar works resulting in the redundant code and as `int` and `double` are subclasses of the `num` we've defined extension on the `num`.
 
-Now as you've learned how to use extension methods for the dart let's check out how we can use and implement the extension methods for the Flutter widgets in our next and final Step. 
