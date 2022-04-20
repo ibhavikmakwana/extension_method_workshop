@@ -1,7 +1,7 @@
 name: Extension Method
 
 # Accepts 'flutter' or 'dart'
-type: flutter
+type: dart
 
 # Configuration for each step
 steps:

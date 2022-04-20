@@ -1,14 +1,14 @@
 # Introduction
 
-Welcome to the Extension Method workshop and customize the existing class to use it easily!
+Welcome to the Extension Method workshop. In this workshop, you'll learn how to customize existing classes to make them easier to use!
 
-Dart has added a feature called `Extension method` in Dart 2.7.  This allows us to add functionality to existing libraries but before we learn about it, let's see what problem it solves.
+Dart 2.7 added a feature called extension methods which allow programmers to add new functionality to existing classes. Before we learn more about extension methods, let's see what problem they solve.
 
 ## What we'll see
 
-1. Converting a number to local currency format
-2. Using Utility class to reduce repetitive code
-3. Replacing Utility class with Extension Methods
+1. Converting a number to local currency format.
+2. Using a utility class to reduce repetitive code.
+3. Replacing the utility class with extension methods.
 
 ## 1. Converting a number to local currency format
 
