@@ -4,7 +4,6 @@ In most use cases, you'll want to use the same currency formatter throughout you
 
 Below is an example of the Utility class:
 
-<!-- Is this example right? It feels like it shouldn't take in decimalDigits but rather the number to be formatted? -->
 ```dart
 class Util {
   static String formatCurrency(num numberToFormat) {
@@ -29,10 +28,10 @@ This is simple, right? However, have you noticed something usual(or unusual)?
 
 Yes, the method `formatCurrency` is static. While this is not a good nor bad practice, the `Util` class is unnecessary, because we are not calling methods on a specific instance. Instead, we are passing an `int` into a static method.
 
-But **What If...?** we can write the below code instead?
+But **What If...?** you can write the below code instead?
 
 `1500.formatCurrency;`
 
 Looks neat and easy and much more readable, right?
 
-Let's find out how we can do so in the next step.
+Let's find out how you can do so in the next step.

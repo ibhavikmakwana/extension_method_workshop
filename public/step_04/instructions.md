@@ -1,9 +1,6 @@
-# 🎉 Congratulations, you've completed this workshop!
+# DIY 👷
 
-What you've learned:
+You've seen how to format the number value to the currency format using an `extension method`, Let's check out one more `Utility` class and try to migrate it to the `extension method`.
 
-1. Using Utility class to reduce repetitive code
-3. Replacing Utility class with Extension Methods
 
-You can learn more about [Extension Methods](https://dart.dev/guides/language/extension-methods) here.
-
+## 
