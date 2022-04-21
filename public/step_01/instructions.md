@@ -9,6 +9,7 @@ Dart 2.7 added a feature called extension methods which allow programmers to add
 1. Converting a number to local currency format.
 2. Using a utility class to reduce repetitive code.
 3. Replacing the utility class with extension methods.
+4. Generic extensions.
 
 ## 1. Converting a number to local currency format
 

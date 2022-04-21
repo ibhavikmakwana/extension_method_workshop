@@ -5,7 +5,7 @@ void main() {
 }
 
 class Util {
-  static String formatCurrency(int decimalDigits) {
+  static String formatCurrency(num decimalDigits) {
     final formatCurrency = NumberFormat.simpleCurrency(
       locale: 'en_IN',
       decimalDigits: 0,

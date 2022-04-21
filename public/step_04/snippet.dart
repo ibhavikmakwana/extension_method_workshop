@@ -1,13 +1,11 @@
-import 'package:intl/intl.dart';
-
 void main() {
-  print(11500.formatCurrency);
+  // TODO(2) Use extension method instead.
+  print(Util.isValidURL('https://flutter.dev'));
 }
 
-extension XNum on num {
-  String get formatCurrency {
-    final formatCurrency =
-        NumberFormat.simpleCurrency(locale: 'en_IN', decimalDigits: 0);
-    return formatCurrency.format(this);
+// TODO(1) Replace this util class with an extension method.
+class Util {
+  static bool isValidURL(String url) {
+    return Uri.parse(url).isAbsolute;
   }
 }
